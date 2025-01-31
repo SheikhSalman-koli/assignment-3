@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!--fonts-links --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+    .sora-font{
+    font-family: "Sora", serif;
+   }
+    .adlam-display-regular{
+    font-family: "ADLaM Display", serif;
+   }
+    </style>
+   <!--font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- daisy & tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'nav-bg':'#FFF9F4',
+                'btn-bg':'#FFDC26'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="adlam-display-regular">
+    <!--header-->
+    <header>
+       <!--navbar-->
+       <nav class="bg-nav-bg sora-font">
+        <!--nav-container-->
+        <div class="max-w-7xl mx-auto px-4 py-2">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center gap-3">
+              <img src="c1-assets/logo-header.png" alt="">
+              <p class="hidden lg:block">Browse<span class="text-btn-bg">4</span>Pets</p>
+            </div>
+             
+            
+              
+
+           <div class=" hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+  
+            <div class="inline-flex items-center space-x-4">
+              <i class="fa-regular fa-bell invisible lg:visible"></i>
+              <i class="fa-solid fa-magnifying-glass invisible lg:visible"></i>
+              <a class="btn btn-outline btn-warning invisible lg:visible">Login</a>
+              <a class="btn btn-warning invisible lg:visible">Register</a> 
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 lg:hidden "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+              </div>
+            </div>
+
+          </div>
+         </nav>
+        </div>
+   
+    </header>
+    <!--main-->
+    <main>
+
+    </main>
+    <!--footer-->
+    <footer>
+
+    </footer>
+</body>
+</html>
